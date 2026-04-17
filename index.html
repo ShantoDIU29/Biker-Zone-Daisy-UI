@@ -8,8 +8,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script>
     tailwind.config = {
       theme: {
@@ -21,6 +19,8 @@
       },
     };
   </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="font-poppins bg-base-200">
   <!-- header section -->
@@ -68,6 +68,31 @@
               Premium bikes, trusted gear, and a smoother shopping experience for every rider.
             </p>
             <a href="#shop" class="btn btn-error text-white">Browse Bikes</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="mx-auto max-w-7xl px-4 pb-16 lg:px-8">
+      <div class="rounded-3xl bg-base-100 px-6 py-12 shadow-lg lg:px-12">
+        <div class="mb-10 text-center">
+          <h2 class="text-3xl font-bold text-neutral lg:text-4xl">Featured Bikes This Year</h2>
+          <p class="mt-3 text-base-content/70">
+            Explore a few of our most-loved models for daily rides and weekend adventures.
+          </p>
+        </div>
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div class="rounded-2xl border border-base-300 p-6 text-center">
+            <img src="./images/others/feature-bike.png" alt="Featured bike" class="mx-auto w-full max-w-xs">
+            <h3 class="mt-4 text-xl font-semibold text-neutral">Performance Edition</h3>
+          </div>
+          <div class="rounded-2xl border border-base-300 p-6 text-center">
+            <img src="./images/others/feature-bike.png" alt="Featured bike" class="mx-auto w-full max-w-xs">
+            <h3 class="mt-4 text-xl font-semibold text-neutral">Urban Rider</h3>
+          </div>
+          <div class="rounded-2xl border border-base-300 p-6 text-center">
+            <img src="./images/others/feature-bike.png" alt="Featured bike" class="mx-auto w-full max-w-xs">
+            <h3 class="mt-4 text-xl font-semibold text-neutral">Adventure Series</h3>
           </div>
         </div>
       </div>
